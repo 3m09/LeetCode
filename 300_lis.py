@@ -6,7 +6,7 @@ class Solution:
                 if(nu[mid] < val):
                     lo = mid + 1
                 else:
-                    hi = mid
+                    hi = midbes
             return lo
         lis = [nums[0]]
         for i in range(1,len(nums)):
